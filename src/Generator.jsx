@@ -34,7 +34,7 @@ function Generator() {
       <h1>QR Code Generator 🧑🏻‍💻</h1>
       <div className="container">
         <input onKeyDown={(e) => enter(e)}  ref={inputRef}  placeholder="Write your text or URL" type="text"/><br />
-        <img src={image_url} alt="" /><br />
+        <img  src={image_url} alt="" /><br />
         <button onClick={generateCode}>Generate</button>
       </div>
     </>
